@@ -1,0 +1,216 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DSL-CRUD",
+    "collectionId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+    "dateExported": "2025-01-20T03:18:50.053Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "356ba0c0-a6a4-4047-8130-0d2824dac444",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETESTADO",
+            "url": "http://localhost:3000/api/estado",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-11-13T23:11:49.031Z",
+            "modified": "2025-01-19T21:36:52.065Z",
+            "headers": []
+        },
+        {
+            "_id": "0bb715fa-72d4-4854-b17b-e0cd5c3077a9",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETHUESPEDBYDNI",
+            "url": "http://localhost:3000/api/huesped/77204880",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-19T22:22:27.737Z",
+            "modified": "2025-01-19T22:22:44.821Z",
+            "headers": []
+        },
+        {
+            "_id": "c71a56c4-5292-43f4-86d4-747daf786f65",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "CREATEHUESPED",
+            "url": "http://localhost:3000/api/huesped/insertar",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-01-19T22:48:42.157Z",
+            "modified": "2025-01-20T00:17:16.694Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"dni\": \"75254625\",\n    \"nombre\": \"Manuel\",\n    \"app\": \"Soriano\",\n    \"apm\": \"Quispe\",\n    \"tlf\": \"965125456\",\n    \"ruc\": \"12345458901\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "faa88b09-a9cc-4f7d-9f10-715b79e24c7f",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "UPDATEHUESPED",
+            "url": "http://localhost:3000/api/huesped/modificar/6",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-01-19T23:15:53.580Z",
+            "modified": "2025-01-19T23:18:23.160Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"dni\": \"62334090\",\n    \"nombre\": \"Luis\",\n    \"app\": \"Soriano\",\n    \"apm\": \"Aquise\",\n    \"tlf\": \"987654321\",\n    \"ruc\": \"12345675555\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "762f007f-44a0-4b06-9452-f0ade4a819ce",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "DELETEHUESPED",
+            "url": "http://localhost:3000/api/huesped/eliminar/6",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-01-19T23:25:47.120Z",
+            "modified": "2025-01-19T23:26:11.827Z",
+            "headers": []
+        },
+        {
+            "_id": "bc4458ea-c90e-49ea-a0e6-237711421cf9",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETHUESPEDS",
+            "url": "http://localhost:3000/api/huesped/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-01-19T23:33:01.963Z",
+            "modified": "2025-01-20T00:17:58.539Z",
+            "headers": []
+        },
+        {
+            "_id": "f51c5f28-186e-4d29-a38a-892778b29c57",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETHABITACIONES",
+            "url": "http://localhost:3000/api/habitacion/",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-01-20T00:57:53.324Z",
+            "modified": "2025-01-20T00:58:10.861Z",
+            "headers": []
+        },
+        {
+            "_id": "c372b5c6-ba83-4079-82fe-d0b95be685a3",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "CREATEHABITACION",
+            "url": "http://localhost:3000/api/habitacion/insertar",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2025-01-20T01:10:21.692Z",
+            "modified": "2025-01-20T01:13:18.364Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"n_hab\": 204,\n  \"precio\": 55.0,\n  \"estado\": 1,\n  \"servicios\": \"3, 4, 5\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7c9390ab-4fdc-47fb-a093-afbb7edc1fc8",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "UPDATEHABITACION",
+            "url": "http://localhost:3000/api/habitacion/modificar/11",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2025-01-20T01:16:31.234Z",
+            "modified": "2025-01-20T01:19:34.841Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"num\": 204,\n  \"precio\": 55.0,\n  \"estado\": 1,\n  \"servicios\": \"4, 5\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5f7a79a0-8161-478f-90c8-2411d2da3f2f",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "DELETEHABITACION",
+            "url": "http://localhost:3000/api/habitacion/eliminar/11",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2025-01-20T01:49:40.965Z",
+            "modified": "2025-01-20T01:50:25.301Z",
+            "headers": []
+        },
+        {
+            "_id": "3aa2f128-437b-4a5c-a757-f2dcbce289a7",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETHABITACIONDISPONIBLE",
+            "url": "http://localhost:3000/api/habitacion/disponibles",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2025-01-20T01:58:42.555Z",
+            "modified": "2025-01-20T02:39:57.875Z",
+            "headers": []
+        },
+        {
+            "_id": "e463827c-996a-4334-a336-e9e39f4d0c47",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETHUESPEDBYID",
+            "url": "http://localhost:3000/api/huesped/obtener/1",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2025-01-20T02:09:10.204Z",
+            "modified": "2025-01-20T02:17:23.830Z",
+            "headers": []
+        },
+        {
+            "_id": "32c226c9-0c0f-4449-8f95-c83135ff7461",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETALQUILER",
+            "url": "http://localhost:3000/api/alquiler/",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2025-01-20T02:29:39.246Z",
+            "modified": "2025-01-20T02:29:58.185Z",
+            "headers": []
+        },
+        {
+            "_id": "b3366e3c-35de-40bc-8f98-4b3e6d247d3b",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "CREATEALQUILER",
+            "url": "http://localhost:3000/api/alquiler/insertar",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2025-01-20T02:35:15.577Z",
+            "modified": "2025-01-20T02:36:44.042Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idHuesped\": 4,\n  \"idHabitacion\": 1,\n  \"fechaAlquiler\": \"2025-01-20\",\n  \"ocurrencia\": \"Ninguna\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "33167d54-c93e-4149-adc5-679fbaadc476",
+            "colId": "48dbd216-c135-4ce6-a617-27cb6b1ba410",
+            "containerId": "",
+            "name": "GETSERVICIOS",
+            "url": "http://localhost:3000/api/servicio/",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2025-01-20T02:50:32.557Z",
+            "modified": "2025-01-20T02:51:51.868Z",
+            "headers": []
+        }
+    ],
+    "ref": "7CarBKBAc93MyghXhgeWDV47P2M1KGfsc5BhDWdF3NNEj8om9vqhTSi3WtV3PQQm285IbexrgkyX4GBvB5m75w"
+}
