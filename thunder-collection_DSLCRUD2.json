@@ -1,0 +1,23 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "DSLCRUD2",
+    "collectionId": "207d0359-0f95-4e80-a841-4bcb1de5be9e",
+    "dateExported": "2025-01-20T03:19:06.316Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "69f57899-5c0a-479f-80af-19a5aac36df8",
+            "colId": "207d0359-0f95-4e80-a841-4bcb1de5be9e",
+            "containerId": "",
+            "name": "GETHABITACIONSERVICIO",
+            "url": "http://localhost:3000/api/servicio/obtener/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-01-20T02:54:23.456Z",
+            "modified": "2025-01-20T02:56:30.828Z",
+            "headers": []
+        }
+    ],
+    "ref": "PDyIpfIE9cDmFfbn9qPO3AlzCHSU50FBp6l-pAHomn5FfAaZDGQcjo0hk1h3UzaHbD8JyVUvmIYaQ1XH5kIqKg"
+}
